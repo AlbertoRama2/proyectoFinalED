@@ -43,7 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Interfazes\Reparable.cs" />
+    <Compile Include="models\Dispositivo.cs" />
+    <Compile Include="models\Movil.cs" />
+    <Compile Include="models\Tablet.cs" />
+    <Compile Include="models\Tienda.cs" />
+    <Compile Include="Main\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
