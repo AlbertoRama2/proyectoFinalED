@@ -43,9 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enumeraciones\RAM.cs" />
+    <Compile Include="Enumeraciones\SistemaOperativo.cs" />
     <Compile Include="Interfazes\Reparable.cs" />
     <Compile Include="models\Dispositivo.cs" />
     <Compile Include="models\Movil.cs" />
+    <Compile Include="models\PC.cs" />
+    <Compile Include="models\Portatil.cs" />
     <Compile Include="models\Tablet.cs" />
     <Compile Include="models\Tienda.cs" />
     <Compile Include="Main\Program.cs" />

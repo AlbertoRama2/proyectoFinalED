@@ -1,14 +1,13 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace proyectoFinal.models
+namespace proyectoFinal.Enumeraciones
 {
-    class Tienda
+    class SistemaOperativo
     {
-      
+        enum SistemasOperativos{ Android, Windows, ios}
     }
 }
