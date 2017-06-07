@@ -8,6 +8,6 @@ namespace proyectoFinal.Enumeraciones
 {
     class RAM
     {
-        enum RAMs {1GB,2GB,4GB,8GB,16GB,32GB}
+        enum RAMs {unGB,dosGB,cuatroGB,ochoGB,dieciseisGB,treintaydosGB}
     }
 }
