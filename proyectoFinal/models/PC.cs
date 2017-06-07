@@ -13,7 +13,7 @@ namespace proyectoFinal.models
         public string RAM { get; set; }
         public string Procesador { get; set; }
 
-        public PC(string marca, string modelo, float pulgadas, string sistemaOperativo, float precio) : base(marca, modelo,pulgadas, sistemaOperativo, precio)
+        public PC(string marca, string modelo, string sistemaOperativo, float precio) : base(marca, modelo,sistemaOperativo, precio)
         {
 
         }
